@@ -1,0 +1,41 @@
+{
+  "name": "suivre-voss-revisions",
+  "version": "1.0.0",
+  "description": "app pour suivre revisions de votre voitures",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npankov/suivre-vos-revisons.git"
+  },
+  "keywords": [
+    "voiture",
+    "véhicule",
+    "car",
+    "etretien"
+  ],
+  "author": "Nikolai Pankov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npankov/suivre-vos-revisons/issues"
+  },
+  "homepage": "https://github.com/npankov/suivre-vos-revisons#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "mongoose": "^5.12.10"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}

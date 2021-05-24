@@ -1,0 +1,38 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+.btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+input.auth-input {
+    border-bottom: 1px solid #fff!important;
+    box-shadow: 0 1px 0 0 #fff!important;
+}
+
+input.auth-input + label {
+    color: #ffffff!important;
+}
+
+input.auth-input:focus + label {
+    color: #ffffff!important;
+}
+
+input.auth-input:focus {
+    border-bottom: 1px solid #ffeb3b!important;
+    box-shadow: 0 1px 0 0 #ffeb3b!important;
+}
+
+.nav-wrapper {
+    padding: 0 2rem;
+}
+
+.col.s8 {
+    padding-top: 2rem;
+}
+
+.preloader-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
