@@ -15,7 +15,7 @@ input.auth-input + label {
 }
 
 input.auth-input:focus + label {
-    color: #ffffff!important;
+    color: #ffeb3b!important;
 }
 
 input.auth-input:focus {
